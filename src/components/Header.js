@@ -39,10 +39,11 @@ const Header = () => {
 
   ))}
               <li><a href="#"></a>Existing Inventory</li>
-              <li><a href="#">Used Inventory</a></li>
+              <li><a href="#"></a>Used Inventory</li>
               <li><a href="#"></a>Trade In</li>
               <li><a href="#"></a>Cyber Truck</li>
               <li><a href="#"></a>Roadaster</li>
+              <li><a href=""></a></li>
              
             </NavBar>
             
