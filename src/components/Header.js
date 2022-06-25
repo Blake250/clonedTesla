@@ -71,7 +71,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex: 1; 
-padding: 20px
+
 
 
 a{
