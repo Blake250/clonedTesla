@@ -38,7 +38,7 @@ const Header = () => {
                  <li key={index}><a href="#">{items}</a> </li>
 
   ))}
-              <li><a href="#"></a>Existing Inventory</li>
+              <li><a href="#"></a> <p> Existing Inventory </p> </li>
               <li><a href="#"></a>Used Inventory</li>
               <li><a href="#"></a>Trade In</li>
               <li><a href="#"></a>Cyber Truck</li>
@@ -107,20 +107,24 @@ const NavBar = styled.div`
   z-index: 16;
   list-style: none;
   padding: 20px 0;
+  padding-left:5px !important;
   display: flex; 
   text-align: start;
   flex-direction: column;
   transform : ${props => props.show ? "translateX(0)" : "translateX(100%)"};
   transition : transform  0.2 ;
-  
+ 
+ 
 
   li{
     margin : 15px 0;
+ 
     border-bottom : 1px solid rgba(0, 0, 0, .2);
 
   }
   a{
     font-weight: 600;
+  
   }
 `
 
