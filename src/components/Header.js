@@ -38,12 +38,12 @@ const Header = () => {
                  <li key={index}><a href="#">{items}</a> </li>
 
   ))}
-              <li><a href="#"></a> <p> Existing Inventory </p> </li>
+              <li><a href="#"></a> Existing Inventory  </li>
               <li><a href="#"></a>Used Inventory</li>
               <li><a href="#"></a>Trade In</li>
               <li><a href="#"></a>Cyber Truck</li>
               <li><a href="#"></a>Roadaster</li>
-              <li><a href=""></a></li>
+            
              
             </NavBar>
             
@@ -102,6 +102,7 @@ const NavBar = styled.div`
   top: 0;
   bottom: 0;
   right: 0;
+ 
   background: white;
   width: 300px;
   z-index: 16;
@@ -118,8 +119,11 @@ const NavBar = styled.div`
 
   li{
     margin : 15px 0;
+    padding:0 6px;
+    font-weight:600;
  
     border-bottom : 1px solid rgba(0, 0, 0, .2);
+  
 
   }
   a{
